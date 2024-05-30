@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="submit_page.php">
+    <h2>Form Example</h2>
+    <!-- Usage of form elements -->
+
+
+    <Label for="fullname">Full Name:</Label>
+    <input type="text" id="fullname" name="fullname" required>
+    <br />
+    <br />
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+    <br />
+    <br />
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" required>
+    <br />
+    <br />
+    
+    <label for="message">Message</label>
+
+    <textarea name="message" id="message" rows="4"
+    cols="50"></textarea>
+
+    <br />
+    <br />
+    <!-- Radio Buttons and Checkboxes -->
+    <input type="radio" name="options" id="option1"
+    value="option1">
+    <label for="option1">Option 1</label> <br /> <br />
+
+    <input type="radio" name="options" id="option2"
+    value="option2">
+    <label for="option2">Option 2</label> <br />
+
+    <input type="checkbox" name ="checkbox1" id="checkbox1"
+    value="checkbox1">
+    <label for="checkbox1">Checkbox 1</label>
+    <br />
+    <input type="checkbox" name ="checkbox1" id="checkbox2"
+    value="checkbox2">
+    <label for="checkbox1">Checkbox 2</label>
+
+    <br />
+    <button type="submit">Submit</button>
+
+
+</form>
+</body>
+</html>
